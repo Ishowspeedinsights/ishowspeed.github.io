@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 if (post) {
                     // Set the page title and meta tags dynamically
-                    document.getElementById('post-title').innerText = post.title;
+                    document.title = post.title; // Update the <title> tag
+                    document.getElementById('post-title').innerText = post.title; // Update <h1> text
                     document.getElementById('video-date').innerText = post.date;
 
                     // Inject meta tags into the head
