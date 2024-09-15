@@ -1,6 +1,6 @@
 {
-    "alertActive": false,
-    "backgroundColor": "#ffeb3b",
-    "fontColor": "#333",
-    "text": ""
+    "alertActive": true,
+    "backgroundColor": "#ffe500",
+    "fontColor": "#ffffff",
+    "text": "<a href="post?id=1"><strong>Officially Online!</strong></a>"
 }
