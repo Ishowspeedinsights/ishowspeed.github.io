@@ -1,0 +1,13 @@
+{
+    "imageOfTheDay": {
+        "date": "September 15, 2024",
+        "description": "IShowSpeed meets Manny Pacquiao.",
+        "htmlTag": "<img id=\"daily-image\" src=\"media/GXSD9zHacAAN5Zk.jpg\" alt=\"IShowSpeed meets Manny Pacquiao.\" style=\"width: 80%; max-width: 100%;\">"
+    },
+    "videoOfTheDay": {
+        "date": "September 14, 2024",
+        "description": "This is the description of the video of the day.",
+        "htmlTag": ""
+    }
+
+}
