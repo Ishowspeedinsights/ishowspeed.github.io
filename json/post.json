@@ -4,5 +4,13 @@
         "title": "Officially Online!",
         "date": "September 15, 2024",
         "head": "<title>Officially Online!</title>\n<meta name=\"twitter:title\" content=\"Officially Online!\">\n<meta name=\"twitter:description\" content=\"First blog post ever.\">\n<meta property=\"og:type\" content=\"article\">\n<meta property=\"og:description\" content=\"First blog post ever.\">\n<meta property=\"og:title\" content=\"Officially Online!\">\n<meta name=\"robots\" content=\"index, follow\">\n<meta name=\"keywords\" content=\"ishowspeed, ishowspeedy, darren watkins\">\n<meta name=\"description\" content=\"First blog post ever.\">",
-        "content": "<p>Welcome to my new IShowSpeed Insights blog, a blog dedicated to news about IShowSpeed.</p><br><p>I am still writing a few new articles, but rest assured, there will be more!</p><br><p>- IShowSpeed Insights</p>"    }
+        "content":  "<p> This is an unofficial blog dedicated to news related to iShowSpeed. </p> <br> <p> This website is ad-free and only has a Twitter account. I am hosting it using GitHub Pages. You are welcome to copy and rebrand the blog, though I will not provide instructions. </p>"
+    },
+    {
+        "id": 2,
+        "title": "IShowSpeed's South East Asia Tour: Country List",
+        "date": "September 15, 2024",
+        "head": "<title>IShowSpeed's South East Asia Tour: Country List</title> <meta name=\"twitter:title\" content=\"IShowSpeed's South East Asia Tour: Country List\"> <meta name=\"twitter:description\" content=\"Here is a list of the possible countries he may visit during the tour.\"> <meta property=\"og:type\" content=\"article\"> <meta property=\"og:description\" content=\"Here is a list of the possible countries he may visit during the tour.\"> <meta property=\"og:title\" content=\"IShowSpeed's South East Asia Tour: Country List\"> <meta name=\"robots\" content=\"index, follow\"> <meta name=\"keywords\" content=\"ishowspeed, ishowspeedy, darren watkins\"> <meta name=\"description\" content=\"Here is a list of the possible countries he may visit during the tour.\">",
+        "content":  "<p>IShowSpeed is currently on a Southeast Asia tour. Here are the countries he is most likely to visit and those he has completed:</p><ul><li><s>Thailand</s></li><li><s>Philippines</s></li><li>Malaysia</li><li><s>Vietnam</s></li><li>Cambodia</li><li>Indonesia</li><li>Singapore</li></ul><p>The tour began on September 9th. He has currently completed Thailand, the Philippines, and Vietnam.</p>"
+    }
 ]
