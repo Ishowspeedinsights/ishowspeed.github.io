@@ -2,5 +2,5 @@
     "alertActive": true,
     "backgroundColor": "#ffe500",
     "fontColor": "#ffffff",
-    "text": "<a href="post?id=1">Officially Online!</a>"
+    "text": "<a href=\"post?id=1\">Officially Online!</a>"
 }
