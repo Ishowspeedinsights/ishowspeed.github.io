@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             postElement.addEventListener('click', () => {
-                window.location.href = `/post?id=${post.id}`; // Redirect to detailed view page
+                window.location.href = `/post.html?id=${post.id}`; // Redirect to detailed view page
             });
 
             postsContainer.appendChild(postElement);
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             postElement.addEventListener('click', () => {
-                window.location.href = `/post?id=${post.id}`; // Redirect to detailed view page
+                window.location.href = `/post.html?id=${post.id}`; // Redirect to detailed view page
             });
 
             postsContainer.appendChild(postElement);
