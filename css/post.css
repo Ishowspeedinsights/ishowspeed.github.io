@@ -96,6 +96,16 @@ article h2 {
     font-size: 1.25rem;
 }
 
+/* List styling inside articles */
+article ul {
+    list-style: disc inside;
+    padding-left: 1.5rem; /* Add padding to the left */
+}
+
+article li {
+    margin-bottom: 0.5rem; /* Add spacing between list items */
+}
+
 /* Date styling */
 .date {
     color: #757575;
@@ -255,6 +265,8 @@ footer {
         padding: 0.75rem; /* Adjust padding for consistency */
     }
 }
+
+/* Notification styling */
 .notification {
     background-color: transparent; /* Bright yellow for visibility */
     color: #fff; /* White text for contrast */
@@ -266,6 +278,8 @@ footer {
     box-sizing: border-box; /* Ensure padding is included in the width */
     margin-bottom: 1rem; /* Space below the notification */
 }
+
+/* Abbreviation styling */
 abbr {
     cursor: help; /* The 'help' cursor looks like a question mark */
-  }
+}
