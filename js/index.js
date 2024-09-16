@@ -10,8 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
         postsContainer.innerHTML = ''; // Clear container before adding posts
 
         // Separate pinned and non-pinned posts
-        const pinnedPosts = postsData.filter(post => post.pinned);
-        const nonPinnedPosts = postsData.filter(post => !post.pinned);
+        let pinnedPosts = postsData.filter(post => post.pinned);
+        let nonPinnedPosts = postsData.filter(post => !post.pinned);
+
+        // Sort both pinned and non-pinned posts by id in descending order
+        pinnedPosts = pinnedPosts.sort((a, b) => b.id - a.id);
+        nonPinnedPosts = nonPinnedPosts.sort((a, b) => b.id - a.id);
 
         // Append pinned posts first
         pinnedPosts.forEach(post => {
@@ -26,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             postElement.addEventListener('click', () => {
-                window.location.href = `/post.html?id=${post.id}`; // Redirect to detailed view page
+                window.location.href = `/post?id=${post.id}`; // Redirect to detailed view page
             });
 
             postsContainer.appendChild(postElement);
@@ -51,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
 
             postElement.addEventListener('click', () => {
-                window.location.href = `/post.html?id=${post.id}`; // Redirect to detailed view page
+                window.location.href = `/post?id=${post.id}`; // Redirect to detailed view page
             });
 
             postsContainer.appendChild(postElement);
@@ -62,14 +66,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const videoContent = document.getElementById('video-content');
 
         // Set image content
-        imageContent.innerHTML = mediaData.imageOfTheDay.htmlTag;
-        document.getElementById('image-date').textContent = mediaData.imageOfTheDay.date;
-        document.getElementById('image-description').textContent = mediaData.imageOfTheDay.description;
+        if (mediaData.imageOfTheDay) {
+            imageContent.innerHTML = mediaData.imageOfTheDay.htmlTag;
+            document.getElementById('image-date').textContent = mediaData.imageOfTheDay.date;
+            document.getElementById('image-description').textContent = mediaData.imageOfTheDay.description;
+        }
 
         // Set video content
-        videoContent.innerHTML = mediaData.videoOfTheDay.htmlTag;
-        document.getElementById('video-date').textContent = mediaData.videoOfTheDay.date;
-        document.getElementById('video-description').textContent = mediaData.videoOfTheDay.description;
+        if (mediaData.videoOfTheDay) {
+            videoContent.innerHTML = mediaData.videoOfTheDay.htmlTag;
+            document.getElementById('video-date').textContent = mediaData.videoOfTheDay.date;
+            document.getElementById('video-description').textContent = mediaData.videoOfTheDay.description;
+        }
     })
     .catch(error => console.error('Error fetching data:', error));
 });
