@@ -26,5 +26,12 @@
         "date": "September 16, 2024",
         "content": "IShowSpeed is Projected to be live at 1pm UTC. Currently it has been delayed.",
         "pinned": false
+    },
+    {
+        "id": 5,
+        "title": "Speed hits 30 million subscribers in Cambodia.",
+        "date": "September 16, 2024",
+        "content": "IShowSpeed hits 30 million subscribers while streaming in Cambodia.",
+        "pinned": false
     }
 ]
