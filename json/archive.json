@@ -19,5 +19,12 @@
         "title": "2024 South East Asia Tour: Cambodia",
         "desc": "As part of his 2024 Southeast Asia tour, IShowSpeed will visit Cambodia today.",
         "category": "2024 South East Asia Tour"
+    },
+    {
+        "id": 4,
+        "date": "September 16, 2024",
+        "title": "2024 South East Asia Tour: Cambodia Delayed",
+        "desc": "IShowSpeed is Projected to be live at 1pm UTC. Currently it has been delayed.",
+        "category": "2024 South East Asia Tour"
     }
 ]
