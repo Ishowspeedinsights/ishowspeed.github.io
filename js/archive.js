@@ -20,10 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
             });
 
             // Clear existing content in the div
-            contentDiv.innerHTML = ''; 
+            contentDiv.innerHTML = '';
 
             // Create HTML content for each category
             for (const [category, posts] of Object.entries(categories)) {
+                // Sort posts by id in descending order within each category
+                posts.sort((a, b) => b.id - a.id);
+
                 // Add the category title as an <h2> element
                 const categoryTitle = document.createElement('h2');
                 categoryTitle.textContent = category;
