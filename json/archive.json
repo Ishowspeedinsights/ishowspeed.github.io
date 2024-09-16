@@ -12,5 +12,12 @@
         "title": "IShowSpeed's South East Asia Tour: Country List",
         "desc": "Here is a list of the possible countries he may visit during the tour.",
         "category": "2024 South East Asia Tour"
+    },
+    {
+        "id": 3,
+        "date": "September 16, 2024",
+        "title": "2024 South East Asia Tour: Cambodia",
+        "desc": "As part of his 2024 Southeast Asia tour, IShowSpeed will visit Cambodia today.",
+        "category": "2024 South East Asia Tour"
     }
 ]
