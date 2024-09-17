@@ -283,3 +283,16 @@ footer {
 abbr {
     cursor: help; /* The 'help' cursor looks like a question mark */
 }
+nav ul li .twitter-follow-button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+/* Ensure the list item containing the Twitter button is centered */
+nav ul li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
